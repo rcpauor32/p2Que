@@ -32,10 +32,23 @@ public:
 
 public:
 	// Erase --- 
-	void Erase(uint n) {
-		
-	}
+	/*void Erase(uint n) {
+		for (int i = 0; i < n - 1 && iterator->next != nullptr; i++) {
+			iterator = iterator->next;
+		}
+		node* aux;
+		aux = iterator->next;
 
+		if (aux->next == nullptr) {
+			iterator->next = nullptr;
+		}
+		else {
+			iterator->next = aux->next;
+		}
+
+		delete aux;
+	}
+*/
 	// Insert --- (WIP)
 /*	void insert(const T& data, int n){
 		node* newnode = new node(data);

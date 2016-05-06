@@ -78,7 +78,7 @@ public:
 
 	// Pop ---
 	void pop() {
-		buffer.Erase(buffer.size() - 1);
+//		buffer.Erase(buffer.size() - 1);
 	}
 
 	// Push_Front ---
